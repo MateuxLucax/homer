@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+
+body {
+  font-family: 'Fira Code', monospace;
+}
+
+.group-title:first-child {
+  margin-top: 0 !important;
+}
+
+.group-title {
+  font-weight: bold;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.subtitle {
+  font-weight: normal;
+}
+
+/* Adds spacing to the bottom of cards */
+body #app .card-content {
+  margin-bottom: 0.75rem;
+}
+
+/* Turns the opacity of the cards down to 80% */
+body #app .card,
+body #app .card:hover,
+body #app .message {
+  opacity: 80%;
+}
+
+
+body #bighead {
+  display: none !important;
+}
+ /*Adds more border radius to the cards */
+body .layout-vertical .column div:first-of-type .card {
+  border-radius: 1rem;
+}
+body .layout-vertical .card {
+  border-radius: 1rem;
+}
+.card {
+    border-radius: 1rem;
+}
+body .layout-vertical .column div:last-of-type .card { 
+    border-radius: 1rem; 
+}
+
+/* Changes Header Opacity */
+body #bighead .navbar {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+body .search-bar input {
+    opacity: 20%;
+}
+
+body #bighead .navbar a:focus, body #bighead .navbar a:hover {
+   background-color: rgba(0, 0, 0, 0);
+   color: var(--link-hover);
+}
+
+
+.is-danger {
+  background-color: #F23535 !important;
+}
+
+.is-warning {
+  color: #0D0D0D !important;
+}
+
+.is-link {
+  background-color: #60bfff !important;
+  color: #0D0D0D !important;
+}
