@@ -130,7 +130,7 @@ services:
         target: "_blank"
       - name: "Router dashboard"
         logo: "assets/tools/router.ico"
-        subtitle: "network admin panel"
+        subtitle: "Network admin panel"
         tag: "network"
         tagstyle: "is-danger"
         url: "http://router.sv"
