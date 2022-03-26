@@ -118,6 +118,13 @@ services:
         tagstyle: "is-warning"
         url: "http://jackett.sv"
         target: "_blank"
+      - name: "Webtop"
+        logo: "assets/tools/webtop.png"
+        subtitle: "Web full desktop environments"
+        tag: "container"
+        tagstyle: "is-warning"
+        url: "http://jackett.sv"
+        target: "_blank"
   - name: "Management"
     icon: "fas fa-network-wired"
     items:
