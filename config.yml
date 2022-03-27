@@ -88,7 +88,7 @@ services:
         url: "http://readarr.sv"
         target: "_blank"
       - name: "Bazarr"
-        logo: "assets/tools/bazzar.png"
+        logo: "assets/tools/bazarr.png"
         subtitle: "Subtitle companion for Radarr and Sonarr"
         tag: "torrent"
         tagstyle: "is-link"
