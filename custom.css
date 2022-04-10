@@ -66,16 +66,24 @@ body #bighead .navbar a:focus, body #bighead .navbar a:hover {
    color: var(--link-hover);
 }
 
-
-.is-danger {
+.is-multimidea {
   background-color: #F23535 !important;
 }
 
-.is-warning {
+.is-services {
   color: #0D0D0D !important;
 }
 
-.is-link {
+.is-management {
   background-color: #60bfff !important;
+  color: #0D0D0D !important;
+}
+
+.is-torrent {
+  background-color: #00794a !important;
+}
+
+.is-monitoring {
+  background-color: #B091F2 !important;
   color: #0D0D0D !important;
 }
